@@ -25,7 +25,7 @@
 - [Appendix: Requirements](#appendix-requirements)
   - [Product Scope](#product-scope)
   - [User Stories](#user-stories)
-  - [Non Functional Requirements](#non-functional-requirements)
+  - [Non-Functional Requirements](#non-functional-requirements)
   - [Glossary](#glossary)
 - [Appendix: Instructions for Manual Testing](#appendix-instructions-for-manual-testing)
   - [Saving data](#saving-data)
@@ -702,7 +702,7 @@ Else, the `printInvalidHelpMessage` method of the `HelpCommandUi` is called to n
 <div style="page-break-after: always;"></div>
 
 ## Appendix: Requirements
-### Product scope
+### Product Scope
 #### Target user profile:
 * Works as a supermarket inventory manager
 * Has a need to manage a significant amount of items in an inventory

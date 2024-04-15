@@ -795,7 +795,7 @@ In the text file `transaction.txt`, with valid lines of data being `NAME: name ,
     that the date edited is a date that has not happened yet. The edited line of data should also be deleted from `transactions.txt`
 
 > Note: Run all the test cases below consecutively for accurate results. 
-> Start off by deleting all text in `data/items.txt` and `data/transactions.txt`.
+> Start off by deleting all text in `./data/items.txt` and `./data/transactions.txt`.
 
 ### Create a new item
 Test case: `new n/Pie q/20 p/3 e/19-04-2024`

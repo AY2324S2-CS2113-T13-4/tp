@@ -1053,7 +1053,7 @@ Enter 'y' or 'Y' if you wish to proceed
 Enter anything else if you wish to cancel the clear operation
 ```
 
-Test case: `y `
+Test case: `y y`
 
 Expected: Clear operation cancelled as confirmation input must be strictly `y` or `Y` without any whitespaces
 ```

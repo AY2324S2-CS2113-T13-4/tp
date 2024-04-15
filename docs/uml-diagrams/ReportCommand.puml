@@ -100,11 +100,11 @@ else
             Ui --> ReportCommand
             deactivate Ui
         end
-        ReportCommand -> ReportCommand
+        ReportCommand --> ReportCommand
         deactivate ReportCommand
 
     else reportType.equals("expiry")
-        ReportCommand -> ReportCommand : createExpiryReport();
+        ReportCommand -> ReportCommand : createExpiryReport()
         activate ReportCommand #cbf7f4
         loop for each item in items
             ReportCommand -> Item : getExpiryDate()
@@ -126,11 +126,11 @@ else
             deactivate Ui
         end
 
-        ReportCommand -> ReportCommand
+        ReportCommand --> ReportCommand
         deactivate ReportCommand
     end
 
-    ReportCommand -> ReportCommand
+    ReportCommand --> ReportCommand
     deactivate ReportCommand
 end
 

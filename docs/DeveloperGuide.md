@@ -160,6 +160,8 @@ the item list and will call `ItemStorage+saveData()` at the end of `CommandClass
 > - `AddCommand`
 > - `RemoveCommand`
 > - `RenameCommand`
+> - `BuyCommand`
+> - `SellCommand`
 
 Item data is saved into a text file in `./data/items.txt` by generating a string for each `Item` in the list, containing the attributes of the `item`.
 The string generated will have the attributes in the format and order of `NAME,QUANTITY,PRICE,EXPIRY_DATE`. Since an `Item`'s expiry date is

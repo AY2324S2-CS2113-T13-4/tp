@@ -781,7 +781,7 @@ In the text file `items.txt`, with valid lines of data being `name ,,, quantity 
     being the name of the duplicated item. The displayed item should have the quantity and price of the duplicated line of data.
     - Can also try: adding multiple duplicated items to the text file
 - **For transaction data:**\
-In the text file `transaction.txt`, with valid lines of data being `NAME: name ,,, QTY: quantity ,,, PRICE: price ,,, DATE: date ,,, T: type ,,, end`
+In the text file `transactions.txt`, with valid lines of data being `NAME: name ,,, QTY: quantity ,,, PRICE: price ,,, DATE: date ,,, T: type ,,, end`
   - For corrupted data
     1. Can use the test cases from item data text file, `items.txt` data corruption as well
     2. Replace the type in any valid line of data to anything that is not `b` or `s`
@@ -1053,7 +1053,7 @@ Enter 'y' or 'Y' if you wish to proceed
 Enter anything else if you wish to cancel the clear operation
 ```
 
-Test case: `y `
+Test case: `y y`
 
 Expected: Clear operation cancelled as confirmation input must be strictly `y` or `Y` without any whitespaces
 ```

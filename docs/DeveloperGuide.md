@@ -160,6 +160,8 @@ the item list and will call `ItemStorage+saveData()` at the end of `CommandClass
 > - `AddCommand`
 > - `RemoveCommand`
 > - `RenameCommand`
+> - `BuyCommand`
+> - `SellCommand`
 
 Item data is saved into a text file in `./data/items.txt` by generating a string for each `Item` in the list, containing the attributes of the `item`.
 The string generated will have the attributes in the format and order of `NAME,QUANTITY,PRICE,EXPIRY_DATE`. Since an `Item`'s expiry date is
@@ -793,7 +795,7 @@ In the text file `transaction.txt`, with valid lines of data being `NAME: name ,
     that the date edited is a date that has not happened yet. The edited line of data should also be deleted from `transactions.txt`
 
 > Note: Run all the test cases below consecutively for accurate results. 
-> Start off by deleting all text in `data/items.txt` and `data/transactions.txt`.
+> Start off by deleting all text in `./data/items.txt` and `./data/transactions.txt`.
 
 ### Create a new item
 Test case: `new n/Pie q/20 p/3 e/19-04-2024`

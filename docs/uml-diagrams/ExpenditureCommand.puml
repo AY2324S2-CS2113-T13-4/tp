@@ -48,7 +48,7 @@ class TransactionList {
 }
 
 class Item {
-    {static}-sortByDate():Comparator<Item>
+    {static}+sortByDate():Comparator<Item>
 }
 
 note "Some parameters and methods \nomitted for brevity" as n1

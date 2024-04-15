@@ -376,7 +376,7 @@ the current date will be taken as the before date
 - If the initial command is successful, an additional confirmation message will be shown to the user
 - Enter `y` or `Y` to proceed with the clear operation
 - Enter anything else to cancel the clear operation
-> Note: `y` or `Y` must be exact and should not contain any whitespace or other characters. e.g. entering `y  ` or `yY` will cancel the clear operation
+> Note: `y` or `Y` must be exact and should not contain any whitespace or other characters. e.g. entering `y y` or `yY` will cancel the clear operation
 
 Example: `clear b/19-04-2024`
 ```

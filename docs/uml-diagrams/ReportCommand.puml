@@ -63,7 +63,7 @@ participant "SuperTracker" as SuperTracker <<class>> #f5e3a9
 participant ":ReportCommand" as ReportCommand #cbf7f4
 participant "Inventory" as Inventory <<class>> #d5eac2
 participant "Ui" as Ui <<class>> #e5c2ea
-participant "Item" as Item #fbffb2
+participant ":Item" as Item #fbffb2
 
 SuperTracker -> ReportCommand : execute()
 activate ReportCommand #cbf7f4
@@ -100,11 +100,11 @@ else
             Ui --> ReportCommand
             deactivate Ui
         end
-        ReportCommand -> ReportCommand
+        ReportCommand --> ReportCommand
         deactivate ReportCommand
 
     else reportType.equals("expiry")
-        ReportCommand -> ReportCommand : createExpiryReport();
+        ReportCommand -> ReportCommand : createExpiryReport()
         activate ReportCommand #cbf7f4
         loop for each item in items
             ReportCommand -> Item : getExpiryDate()
@@ -126,11 +126,11 @@ else
             deactivate Ui
         end
 
-        ReportCommand -> ReportCommand
+        ReportCommand --> ReportCommand
         deactivate ReportCommand
     end
 
-    ReportCommand -> ReportCommand
+    ReportCommand --> ReportCommand
     deactivate ReportCommand
 end
 

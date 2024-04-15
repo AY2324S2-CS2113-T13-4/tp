@@ -306,11 +306,11 @@ Example: `report r/expiry` or `report r/expiry t/`
 
 ```
 There is 1 item close to expiry!
- 1. Name: Apple
-    Expiry Date: 20/04/2024
- There is 1 item that is expired!
- 1. Name: Orange
-    Expiry Date: 29/03/2024
+1. Name: Apple
+   Expiry Date: 20/04/2024
+There is 1 item that is expired!
+1. Name: Orange
+   Expiry Date: 29/03/2024
 ```
 
 <br>
